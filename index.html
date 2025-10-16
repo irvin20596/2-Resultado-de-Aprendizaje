@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Avanzada</title>
+    <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a mi página!</h1>
+        <p>Explora y conoce un poco más sobre mí y mis proyectos.</p>
+        <button id="btnColor">Cambiar color de fondo</button>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            Esta página fue creada utilizando <strong>HTML, CSS y JavaScript</strong>.
+            Es un ejemplo de diseño moderno, sobrio y funcional, con botones dinámicos y una estructura adaptable.
+        </p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>Diseño Web</h3>
+                <p>Creación de páginas modernas y adaptables con HTML, CSS y JS.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Optimización</h3>
+                <p>Mejora del rendimiento y la estética de sitios existentes.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Proyectos con IA</h3>
+                <p>Integración de herramientas inteligentes para automatizar tareas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensajeExito" class="oculto">¡Tu mensaje ha sido enviado correctamente!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Página creada por un estudiante de sistemas.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
